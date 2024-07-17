@@ -1,0 +1,37 @@
+body
+{
+    background-image: url(tennessee.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 100vh;
+    margin:0
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p
+{
+    color: rgb(70, 109, 64);
+}
+
+body
+{
+        color: rgb(70, 109, 64);
+    }
+
+ item {
+                border-color: rgb(69, 211, 110);
+                text-align: center;
+                margin: 20px;
+                padding: 20px;
+                background-color:hsl(0, 80%, 70%)
+                ;
+            }
+ .container {
+                width: 100px;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+            }
