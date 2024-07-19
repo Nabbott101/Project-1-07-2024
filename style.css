@@ -1,49 +1,83 @@
-  .carousel-item {
-    text-shadow: 2px 2px #efeeee;
-  }
-  
+.carousel-item {
+  text-shadow: 2px 2px #efeeee;
+}
 
-body
-{
-    background-image: url(images/tennessee.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    height: 150vh;
-    margin:0
+body {
+  background-image: url(images/tennessee.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 180vh;
+  margin: 0;
 }
 nav {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 nav li {
-    font-size: 18px;
-    text-align: right;
-    color: #c3c7a5 !important;
-
+  font-size: 18px;
+  text-align: right;
+  color: #c3c7a5 !important;
 }
 
-p
-{   color: #f5ebeb;
-    font: bolder;
-    font-size: 16px;
-    text-align: center;
-    padding: 2%;
- }
+p {
+  color: #f5ebeb;
+  font: bolder;
+  font-size: 16px;
+  text-align: center;
+  padding: 2%;
+}
+
+p2 {
+  color: #f5ebeb;
+  font: bolder;
+  font-size: 16px;
+  text-align: left;
+}
 
 iframe {
-    margin: 0 auto;
-    display: block;
-    padding-top: 20px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 20px;
 }
-.navbar a
-{
-    color: white;
-    font-size: 18px ;
-    text-align: right;
+.navbar a {
+  color: white;
+  font-size: 18px;
+  text-align: right;
 }
 .googlemap-responsive {
-    padding-bottom: 30%;
+  padding-bottom: 30%;
 }
 
+.col {
+  color: white;
+  font-size: 20px;
+  background-color: orange;
+}
 
+.form-control {
+  size: 10px;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.username {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+}
