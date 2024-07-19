@@ -19,17 +19,12 @@
   <body>
     <!--Navbar Example-->
     <div>
-      >
       <nav class="navbar navbar-expand-lg" style="background-color: orange">
         <a class="navbar-brand" href="#">Tennessee</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
+        <button>
+          <class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -186,15 +181,15 @@
     <table>
       <tr>
         <td><label for="surname" style="color: white">First Name:</label></td>
-        <td><input type="text" id="surname" name="surname" /></td>
+        <td><input type="text" id="surname" name="surname" required/></td>
       </tr>
       <tr>
         <td><label for="othernames" style="color: white">Last Name:</label></td>
-        <td><input type="text" id="othernames" name="othernames" /></td>
+        <td><input type="text" id="othernames" name="othernames" required/></td>
       </tr>
       <tr>
         <td><label for="email" style="color: white">Email:</label></td>
-        <td><input type="email" id="email" name="email" /></td>
+        <td><input type="email" id="email" name="email" required/></td>
       </tr>
       <tr>
         <td><label for="phone" style="color: white">Phone:</label></td>
